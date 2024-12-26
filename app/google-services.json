@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "624901497165",
+    "project_id": "cmu-display-store",
+    "storage_bucket": "cmu-display-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624901497165:android:e14a315c8e038e40e41704",
+        "android_client_info": {
+          "package_name": "com.example.cmudisplaystore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPCD0p-zJiRBhOp1RELRW80Cr2Q4mlyC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

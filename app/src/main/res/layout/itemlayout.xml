@@ -1,0 +1,53 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Image View -->
+        <ImageView
+            android:id="@+id/image_view_item"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cmulogo" />
+
+        <!-- Details Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/text_view_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Name"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Price" />
+
+            <TextView
+                android:id="@+id/text_view_item_owner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item Owner" />
+
+            <!-- New TextView for Contact Number -->
+            <TextView
+                android:id="@+id/text_view_contact_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Number" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
